@@ -3,3 +3,69 @@
     margin: 0;
     font-family: sans-serif, 'Poppins';
 }
+.sectionone{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(226, 220, 220);
+}
+.greenshape{
+    height: 110vh;
+    width: 65%;
+    background-color: lightgreen;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(60px, -50%);
+}
+.man{
+    z-index: 1;
+    margin-left: 1000px;
+    margin-top: 350px;
+    position: absolute;
+}
+.nav{
+    height: 10vh;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.text{
+    height: 350px;
+    width: 300px;
+    /* background-color: aquamarine; */
+    top: 250px;
+    left: 15%;
+    position: absolute;
+}
+.text h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.text p{
+    line-height: 1.4;
+}
+.text button{
+    border: none;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    background-color: lightblue;
+}
