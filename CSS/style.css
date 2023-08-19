@@ -51,7 +51,7 @@
 .text{
     height: 350px;
     width: 300px;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     top: 250px;
     left: 15%;
     position: absolute;
