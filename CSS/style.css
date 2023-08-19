@@ -80,4 +80,8 @@
     height: 481px;
     /* You can add any other styles you want for this section at this screen width */
   }
+  .sectiontwo{
+    height: 480px;
+    background-color: aquamarine;
+  }
 }
