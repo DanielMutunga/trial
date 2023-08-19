@@ -72,3 +72,11 @@
     font-weight: 600;
     background-color: lightblue;
 }
+/* This media query will apply the specified styles when the screen width is 768 pixels or wider */
+@media screen and (min-height: 1100px) {
+  /* Replace "your-section-selector" with the actual selector for your section */
+  .sectionone {
+    height: 481px;
+    /* You can add any other styles you want for this section at this screen width */
+  }
+}
